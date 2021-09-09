@@ -31,6 +31,8 @@ Funcionamiento del elasticsearch
 2. Al momento de que el servicio retorna la info del usuario sea exitosa o fallida se manda el JSON a la instancia de elasticsearch hosteada en localhost:9200
 3. Si no existe indice se crea uno
 4. Se van almacenando la informacion que se pidio en la instancia de elasticsearch despues de cada consulta, exitosa o fallida.
+5. El nombre del indice de elasticsearch creado es "datos"
+6. En caso de no saber se puede acceder a los registros ingresados con esta url "http://localhost:9200/datos/_search?pretty=true"
 
 
 
