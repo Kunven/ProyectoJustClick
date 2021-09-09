@@ -22,7 +22,7 @@ public class DataMan {
          
       ) {		      
          while(rs.next()){                        
-            List.add(""+rs.getString(1));      
+            List.add(""+rs.getString(1));
          }
          if(List.size() > 0){
             return true;
